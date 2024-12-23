@@ -1,0 +1,19 @@
+
+# Just some common files / folders / outputs to ignore
+.env
+/data/
+/docs/
+/files/
+/old/
+/src/multiquery_questions/
+/src/jailbreaking/
+/temp/
+
+# Python & GIT basics
+/.git/
+/lib/
+/lib64/
+/include/
+/bin/
+__pycache__
+pyvenv.cfg

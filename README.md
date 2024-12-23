@@ -17,14 +17,18 @@ LLM one by one ('Best-of-N jailbreaking').
 
 - use virtual environment
 
+```bash
 python3 -m venv .
 source ./bin/activate
+```
 
 - install required libraries
 
+```bash
 python3 -m pip install pip
 pip install setuptools wheel
-pip install python-dotenv openai 
+pip install python-dotenv openai
+``` 
 
 
 ## Requirements

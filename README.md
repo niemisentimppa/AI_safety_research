@@ -6,10 +6,12 @@ To let you demonstrate & showcase how to potentially jailbreak OpenAI frontier m
 other, such as Anthropic's) with very high attack success ratio. 
 
 This is done with the help of LLM itself by chain prompting it in multiple steps to get 
-variations of the original question, and as final step 'shotguning' the questions to 
-LLM one by one ('Best-of-N jailbreaking').
+variations of the original question, and 'shotguning' the questions to 
+LLM one by one ('Best-of-N jailbreaking'). Then the jailbroken questions are picked
+and it's demonstrated how to deepen the discussion.
 
 - Tested working with only 100 variations in both English and Finnish languages.
+- Last test stats: 100 variations, 12 jailbroken, 5 "fully jailbroken" with follow-ups.
 
 ## Installation
 
